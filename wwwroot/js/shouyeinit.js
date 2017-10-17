@@ -194,85 +194,85 @@ $.get('/getData', { fileName: 'cblMenu' }, function (data) {
         $('.grid_list').append(grid_content)
     }
 
-})
-$.get('/getData', { fileName: 'lchannel' }, function (data) {
-    // console.log(data)
-    data.msg.forEach(function (item) {
-        var grid_content = $(`.grid_content[data-index="${item.index}"]`)
-        var channelStr = ''
-        item.lchannel.forEach(function (item) {
-            channelStr += `
-            <div class="glt_item"><a href="${item.href}">${item.text}</a> <span></span></div>
-            `
-        })
-        $(grid_content).find('.gridl_top').html(channelStr)
-        $.get('/getData', { fileName: 'lchannel' + item.index }, function (data) {
-            // console.log(data)
-            if (data.code == 2) {
-                var gridlb_item = ''
-                data.msg.ldetail.forEach(function (item) {
-                    var gitem_head = `
-                        <div class="gitem_head">
-                            <a href="${item.detail_tit.href}">${item.detail_tit.text} <span></span></a>
-                        </div>
-                    `
-                    // var arr = item.detail_arr
-                    var gitem_bodystr = ''
-                    item.detail_arr.forEach(function (item) {
-                        gitem_bodystr += `
-                            <a href="${item.href}">${item.text}</a>
+    $.get('/getData', { fileName: 'lchannel' }, function (data) {
+        console.log(data)
+        data.msg.forEach(function (item) {
+            var grid_content = $(`.grid_content[data-index="${item.index}"]`)
+            var channelStr = ''
+            item.lchannel.forEach(function (item) {
+                channelStr += `
+                <div class="glt_item"><a href="${item.href}">${item.text}</a> <span></span></div>
+                `
+            })
+            $(grid_content).find('.gridl_top').html(channelStr)
+            $.get('/getData', { fileName: 'lchannel' + item.index }, function (data) {
+                // console.log(data)
+                if (data.code == 2) {
+                    var gridlb_item = ''
+                    data.msg.ldetail.forEach(function (item) {
+                        var gitem_head = `
+                            <div class="gitem_head">
+                                <a href="${item.detail_tit.href}">${item.detail_tit.text} <span></span></a>
+                            </div>
                         `
+                        // var arr = item.detail_arr
+                        var gitem_bodystr = ''
+                        item.detail_arr.forEach(function (item) {
+                            gitem_bodystr += `
+                                <a href="${item.href}">${item.text}</a>
+                            `
+                        })
+                        gitem_body = `
+                        <div class="gitem_body">
+                            ${gitem_bodystr}
+                        </div>
+                        `
+                        gridlb_item += `
+                        <div class="gridlb_item">
+                            ${gitem_head + gitem_body}
+                        </div>
+                        `
+    
+    
                     })
-                    gitem_body = `
-                    <div class="gitem_body">
-                        ${gitem_bodystr}
-                    </div>
-                    `
-                    gridlb_item += `
-                    <div class="gridlb_item">
-                        ${gitem_head + gitem_body}
-                    </div>
-                    `
-
-
-                })
-
-                $(grid_content).find('.gridlb').html(gridlb_item)
-            }
-
+    
+                    $(grid_content).find('.gridlb').html(gridlb_item)
+                }
+    
+            })
+    
         })
-
     })
-})
-// 获取右边图片
-$.get('/getData', { fileName: 'rpic' }, function (data) {
-    console.log(data)
-    data.msg.forEach(function (item) {
-        var index = item.index
-        var grid_content = $(`.grid_content[data-index="${index}"]`)
-        var bpic = item.rpic.bpic,
-            spic = item.rpic.spic
-        var bpicStr = ''
-        var spicStr = ''
-        bpic.forEach(function (item) {
-            bpicStr += `
-                <a href="${item.href}"><img src="${item.src}" alt=""></a>
+    // 获取右边图片
+    $.get('/getData', { fileName: 'rpic' }, function (data) {
+        console.log(data)
+        data.msg.forEach(function (item) {
+            var index = item.index
+            var grid_content = $(`.grid_content[data-index="${index}"]`)
+            var bpic = item.rpic.bpic,
+                spic = item.rpic.spic
+            var bpicStr = ''
+            var spicStr = ''
+            bpic.forEach(function (item) {
+                bpicStr += `
+                    <a href="${item.href}"><img src="${item.src}" alt=""></a>
+                `
+            })
+            spic.forEach(function (item) {
+                spicStr += `
+                    <a href="${item.href}"><img src="${item.src}" alt=""></a>
+                `
+            })
+            var grid_right = `
+                <div class="spicBox">
+                    ${spicStr}
+                </div>
+                <div class="bpicBox">
+                    ${bpicStr}
+                </div>
             `
+            grid_content.find('.grid_right').append(grid_right)
         })
-        spic.forEach(function (item) {
-            spicStr += `
-                <a href="${item.href}"><img src="${item.src}" alt=""></a>
-            `
-        })
-        var grid_right = `
-            <div class="spicBox">
-                ${spicStr}
-            </div>
-            <div class="bpicBox">
-                ${bpicStr}
-            </div>
-        `
-        grid_content.find('.grid_right').append(grid_right)
     })
 })
 $('.grid_list').on({
