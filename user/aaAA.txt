@@ -1,0 +1,1 @@
+{"username":"aaAA","password":"AAAAAA","checkpsw":"AAAAAA","phone":"AAAAA","authCode":"AAAA","phoneCode":""}

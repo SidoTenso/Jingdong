@@ -1,0 +1,266 @@
+[
+    {
+        "index": "0",
+        "aTagArr": [
+            {
+                "href": "//jiadian.jd.com",
+                "text": "家用电器"
+            }
+        ]
+    },
+    {
+        "index": "1",
+        "aTagArr": [
+            {
+                "href": "//shouji.jd.com/",
+                "text": "手机"
+            },
+            {
+                "href": "//wt.jd.com",
+                "text": "运营商"
+            },
+            {
+                "href": "//shuma.jd.com/",
+                "text": "数码"
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "aTagArr": [
+            {
+                "href": "//diannao.jd.com/",
+                "text": "电脑"
+            },
+            {
+                "href": "//bg.jd.com",
+                "text": "办公"
+            }
+        ]
+    },
+    {
+        "index": "3",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/home.html",
+                "text": "家居"
+            },
+            {
+                "href": "//channel.jd.com/furniture.html",
+                "text": "家具"
+            },
+            {
+                "href": "//channel.jd.com/decoration.html",
+                "text": "家装"
+            },
+            {
+                "href": "//channel.jd.com/kitchenware.html",
+                "text": "厨具"
+            }
+        ]
+    },
+    {
+        "index": "4",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/1315-1342.html",
+                "text": "男装"
+            },
+            {
+                "href": "//channel.jd.com/1315-1343.html",
+                "text": "女装"
+            },
+            {
+                "href": "//channel.jd.com/children.html",
+                "text": "童装"
+            },
+            {
+                "href": "//channel.jd.com/1315-1345.html",
+                "text": "内衣"
+            }
+        ]
+    },
+    {
+        "index": "5",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/beauty.html",
+                "text": "美妆个护"
+            },
+            {
+                "href": "//channel.jd.com/pet.html",
+                "text": "宠物"
+            }
+        ]
+    },
+    {
+        "index": "6",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/womensshoes.html",
+                "text": "女鞋"
+            },
+            {
+                "href": "//channel.jd.com/bag.html",
+                "text": "箱包"
+            },
+            {
+                "href": "//channel.jd.com/watch.html",
+                "text": "钟表"
+            },
+            {
+                "href": "//channel.jd.com/jewellery.html",
+                "text": "珠宝"
+            }
+        ]
+    },
+    {
+        "index": "7",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/mensshoes.html",
+                "text": "男鞋"
+            },
+            {
+                "href": "//channel.jd.com/yundongcheng.html",
+                "text": "运动"
+            },
+            {
+                "href": "//channel.jd.com/outdoor.html",
+                "text": "户外"
+            }
+        ]
+    },
+    {
+        "index": "8",
+        "aTagArr": [
+            {
+                "href": "//car.jd.com/",
+                "text": "汽车"
+            },
+            {
+                "href": "//che.jd.com/",
+                "text": "汽车用品"
+            }
+        ]
+    },
+    {
+        "index": "9",
+        "aTagArr": [
+            {
+                "href": "//baby.jd.com",
+                "text": "母婴"
+            },
+            {
+                "href": "//toy.jd.com/",
+                "text": "玩具乐器"
+            }
+        ]
+    },
+    {
+        "index": "10",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/food.html",
+                "text": "食品"
+            },
+            {
+                "href": "//jiu.jd.com",
+                "text": "酒类"
+            },
+            {
+                "href": "//fresh.jd.com",
+                "text": "生鲜"
+            },
+            {
+                "href": "//china.jd.com",
+                "text": "特产"
+            }
+        ]
+    },
+    {
+        "index": "11",
+        "aTagArr": [
+            {
+                "href": "//channel.jd.com/1672-2599.html",
+                "text": "礼品鲜花"
+            },
+            {
+                "href": "//nong.jd.com",
+                "text": "农资绿植"
+            }
+        ]
+    },
+    {
+        "index": "12",
+        "aTagArr": [
+            {
+                "href": "//health.jd.com",
+                "text": "医药保健"
+            },
+            {
+                "href": "//channel.jd.com/9192-9196.html",
+                "text": "计生情趣"
+            }
+        ]
+    },
+    {
+        "index": "13",
+        "aTagArr": [
+            {
+                "href": "//book.jd.com/",
+                "text": "图书"
+            },
+            {
+                "href": "//mvd.jd.com/",
+                "text": "音像"
+            },
+            {
+                "href": "//e.jd.com/ebook.html",
+                "text": "电子书"
+            }
+        ]
+    },
+    {
+        "index": "14",
+        "aTagArr": [
+            {
+                "href": "//jipiao.jd.com/",
+                "text": "机票"
+            },
+            {
+                "href": "//hotel.jd.com/",
+                "text": "酒店"
+            },
+            {
+                "href": "//trip.jd.com/",
+                "text": "旅游"
+            },
+            {
+                "href": "//ish.jd.com/",
+                "text": "生活"
+            }
+        ]
+    },
+    {
+        "index": "15",
+        "aTagArr": [
+            {
+                "href": "//licai.jd.com/",
+                "text": "理财"
+            },
+            {
+                "href": "//z.jd.com/",
+                "text": "众筹"
+            },
+            {
+                "href": "//baitiao.jd.com",
+                "text": "白条"
+            },
+            {
+                "href": "//bao.jd.com/",
+                "text": "保险"
+            }
+        ]
+    }
+]

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" href="css/shouye1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/animate.css"> -->
+</head>
+
+<body>
+
+
+    <!-- 顶部固定导航栏 -->
+    <div class="fixtop">
+        <div class="mycontainer">
+            <div class="search_box">
+                <a href="//www.jd.com" class="jd_logo"></a>
+                <div class="searchItem">
+                    <form action="#" method="post">
+                        <input type="text" name="keyword" placeholder="触摸屏笔记本">
+                        <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                        <div class="upload-bg">
+                            <span></span>
+                        </div>
+                        <input type="file" name="pic" style="display:none">
+                    </form>
+                    <div class="searchList">
+                        <div class="searbox">
+                        </div>
+                        <div class="search_close">
+                            关闭
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 左侧固定滚动监听 -->
+    <div class="fixleft">
+        <a href="javascript:;" data-target="#xpz" class="fixactive">享品质</a>
+        <a href="javascript:;" data-target="#aishenghuo">服装美饰</a>
+        <a href="javascript:;" data-target="#jiadianguan">家电手机</a>
+        <a href="javascript:;" data-target="#diannao">电脑数码</a>
+        <a href="javascript:;" data-target="#wan3c">3C运动</a>
+        <a href="javascript:;" data-target="#aichi">爱吃</a>
+        <a href="javascript:;" data-target="#aibaobao">母婴家居</a>
+        <a href="javascript:;" data-target="#aiyuedu">图书汽车</a>
+        <a href="javascript:;" data-target="#aiyouxi">游戏金融</a>
+        <a href="javascript:;" data-target="#aijiankang">旅行健康</a>
+        <a href="javascript:;" data-target="#hmgg">还没逛够</a>
+        <a href="javascript:;" data-target="#daohang">顶部<i class="ttringle"></i></a>
+
+    </div>
+
+    <!-- 右侧固定工具栏 -->
+    <div class="fixright">
+        <div class="frtool_box">
+            <div class="tool_item">
+                <div>京东会员</div>
+                <i class="rtool_logo pz_1"></i>
+            </div>
+            <div class="tool_item">
+                <div>购物车</div>
+                <i class="rtool_logo pz_2"></i>
+            </div>
+            <div class="tool_item">
+                <div>我的关注</div>
+                <i class="rtool_logo pz_3"></i>
+            </div>
+            <div class="tool_item">
+                <div>我的足迹</div>
+                <i class="rtool_logo pz_4"></i>
+            </div>
+            <div class="tool_item">
+                <div>我的消息</div>
+                <i class="rtool_logo pz_5"></i>
+            </div>
+            <div class="tool_item">
+                <div>咨询JIMI</div>
+                <i class="rtool_logo pz_6"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部广告 -->
+    <div class="j-event">
+        <div class="gg">
+            <a href="#"></a>
+            <div class="clear"></div>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <!--  -->
+
+
+
+
+    <!-- 导航 -->
+    <div class="shortcut" id="daohang">
+        <div class="mycontainer">
+            <div class="address">
+                <div class="addBox">
+                    <span class="glyphicon glyphicon-map-marker addLogo"></span>
+                    <span>北京</span>
+                    <div class="addList">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-list">
+                <div class="navitem">
+                    <span id="user"></span>
+                    <a href="javascript:;" id="user_btn">你好，请登录</a>&nbsp;
+                    <a href="register.html" class="freereg">免费注册</a>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">我的订单</a>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">我的京东 <span class="togle"></span></a>
+                    <div class="navToggle" id="jdList">
+                    </div>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">京东会员</a>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">企业采购</a>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">客户服务 <span class="togle"></span></a>
+                    <div class="navToggle" id="clientList">
+                    </div>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem" style="position:static;">
+                    <a href="#">网站导航 <span class="togle"></span></a>
+                    <div class="navToggle" id="wangzhanList">
+                    </div>
+                </div>
+                <div class="fg"></div>
+                <div class="navitem">
+                    <a href="#">手机京东</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 搜索 -->
+    <div id="search">
+        <div class="mycontainer">
+            <div class="searchBox">
+                <div class="searchItem">
+                    <form action="#" method="post">
+                        <input type="text" name="keyword" id="keyword" placeholder="触摸屏笔记本">
+                        <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                        <div class="upload-bg">
+                            <span></span>
+                        </div>
+                        <input type="file" name="pic" id="pic" style="display:none">
+                    </form>
+                    <div class="searchList">
+                        <div class="searbox">
+                        </div>
+                        <div class="search_close">
+                            关闭
+                        </div>
+                    </div>
+                </div>
+                <div class="mygwc" id="mygwc">
+                    
+                    <div class="gwctoggle">
+                        <i class="gwclogo"></i>
+                        <span>
+                                购物车中还没有商品，赶紧选购吧！
+                        </span>
+                    </div>
+                    <div>
+                            <i class="glyphicon glyphicon-shopping-cart"></i>
+                            <a href="#"> 我的购物车 </a>
+                            <sup><span>0</span></sup>
+                        </div>
+
+                </div>
+            </div>
+            <div class="hotwords">
+                <div class="hword">
+                    <a class="red" href="https://sale.jd.com/act/SUVT42MxDzokKXEy.html?spm=1.1.0" target="_blank" class="style-red">爆品1元秒</a>
+                    <a href="//sale.jd.com/act/Vh7FfS2AdzG.html?spm=1.1.1" target="_blank">疯狂11号</a>
+                    <a href="//mall.jd.com/index-649186.html?spm=1.1.2" target="_blank">0元试用</a>
+                    <a href="https://sale.jd.com/act/bQeor2AUljxVp.html?spm=1.1.3" target="_blank">宝姿新品</a>
+                    <a href="https://sale.jd.com/act/E628Vy4PZIDGrt.html?spm=1.1.4" target="_blank">3折秒杀</a>
+                    <a href="//search.jd.com/Search?keyword=%E5%95%86%E5%8A%A1%E4%BC%91%E9%97%B2%E9%9E%8B&amp;enc=utf-8&amp;spm=1.1.5" target="_blank">商务休闲鞋</a>
+                    <a href="//search.jd.com/Search?keyword=%E4%B9%92%E4%B9%93%E7%90%83%E6%8B%8D&amp;enc=utf-8&amp;spm=1.1.6" target="_blank">乒乓球拍</a>
+                    <a href="https://sale.jd.com/act/H2TCewIDvx.html?spm=1.1.7" target="_blank">199减100</a>
+                    <a href="//search.jd.com/Search?keyword=%E7%9A%AE%E8%A3%A4&amp;enc=utf-8&amp;spm=1.1.8" target="_blank">皮裤</a>
+                </div>
+
+            </div>
+            <div class="maindh">
+                <!-- <div class="maindhbox"> -->
+                <ul>
+                    <li><a href="#">秒杀</a></li>
+                    <li><a href="#">优惠券</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">京东超市</a></li>
+                    <li><a href="#">生鲜</a></li>
+                    <li><a href="#">全球购</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">京东金融</a></li>
+                </ul>
+                <!-- </div> -->
+            </div>
+
+            <a href="#" class="treasure"></a>
+
+            <div class="jdLogo">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播这部分很多的 -->
+    <div class="grid">
+        <div class="mycontainer">
+            <!-- 左侧 -->
+            <div class="grid_list">
+               
+            </div>
+            <!-- 中间 -->
+            <div class="lbconter">
+                <div class="lbbox">
+                    <ul>
+                        <!-- <li class="lb_item">
+                            <a href="#"><img src="" alt=""></a>
+                        </li> -->
+                    </ul>
+                    <div class="lb_list">
+                        <div class="lb_index lb_active"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                        <div class="lb_index"></div>
+                    </div>
+                    <div class="contr_left"><span></span></div>
+                    <div class="contr_right"><span></span></div>
+                </div>
+
+                <div class="lbother">
+                    <div class="lbother_item">
+                        <a href="//3c.jd.com/"><img src="//img14.360buyimg.com/cms/s390x130_jfs/t8875/241/1968981610/18884/a51678d3/59cf5e17Nf841ed5b.jpg!q90" alt="">
+                        </a>
+                    </div>
+                    <div class="lbother_item">
+                        <a href="//sale.jd.com/act/GDhske0Mlwx6.html">
+                            <img src="//img10.360buyimg.com/babel/s390x130_jfs/t8785/198/2034525591/11142/669c72a7/59cf6ce2Nad9dea07.jpg!q90" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- 右边 -->
+            <div class="gridr_list">
+                <div class="gridr_user">
+                    <div class="txbox">
+                        <span class="touxiang"></span>
+                        <div class="user">
+                            <div>再上京东我是狗！</div>
+                            <a href="login.html">登录</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="register.html">注册</a>
+                        </div>
+                    </div>
+                    <a href="#" class="userlk">新人福利</a>
+                    <a href="#" class="userlk">PLUS会员</a>
+                </div>
+                <div class="gridr_new">
+                    <div class="newtit">
+                        <a href="#" class="newlk">促销</a>
+                        <i></i>
+                        <a href="#" class="newlk">公告</a>
+                        <a href="#" class="more">更多</a>
+                        <div class="xhx"></div>
+                    </div>
+                    <div class="newbox">
+                        <!-- <div class="news1"></div>
+                        <div class="news2"></div> -->
+                    </div>
+                </div>
+                <div class="gridr_server">
+                    <ul>
+                        <li class="severitem siup">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>话费</span>
+                            </a>
+                        </li>
+                        <li class="severitem  siup">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>机票</span>
+                            </a>
+                        </li>
+                        <li class="severitem siup">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>酒店</span>
+                            </a>
+                        </li>
+                        <li class="severitem siup">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>游戏</span>
+                            </a>
+                        </li>
+                        <div class="siupbox">
+                            <div class="close">x</div>
+                            <div class="hf">
+                                <div class="hftit">
+                                    <span>话费充值</span>
+                                    <span>流量充值</span>
+                                    <span>套餐变更</span>
+                                </div>
+                                <form action="#">
+                                    <div class="formgroup">
+                                        <label for="">号码</label>
+                                        <input type="text" id="phone">
+                                    </div>
+                                    <div class="formgroup">
+                                        <label for="">面值</label>
+                                        <select name="" id="">
+                                            <option value="">10元</option>
+                                            <option value="">20元</option>
+                                            <option value="">30元</option>
+                                            <option value="">50元</option>
+                                            <option value="">100元</option>
+                                            <option value="">200元</option>
+                                            <option value="">300元</option>
+                                            <option value="">500元</option>
+                                        </select>
+                                        <span class="red">￥98.0-￥100.0</span>
+                                    </div>
+                                    <div class="formgroup">
+                                        <input type="radio" name="" id="" checked><span>直充</span>
+                                        <input type="radio" name="" id=""><span>卡密</span>
+                                    </div>
+                                    <div class="formgroup">
+                                        <button>快速充值</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>企业购</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>加油卡</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>电影票</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>火车票</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>众筹</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>理财</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>礼品卡</span>
+                            </a>
+                        </li>
+                        <li class="severitem">
+                            <a href="#">
+                                <i class="hflogo"></i>
+                                <span>白条</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- 大轮播下面的小轮播 -->
+    <div class="slunbo" id="slunbo">
+        <div class="mycontainer">
+            <div class="slbtit">
+                <i class="zhejiao"></i>
+                <div class="titleft">
+                    <i class="shizhong"></i>
+                    <h3>京东秒杀</h3>
+                    <a href="//miaosha.jd.com">总有你想不到的低价<span>&gt;</span></a>
+                </div>
+                <div class="daojishi">
+                    <span>当前场次</span>
+                    <div class="djstime">
+                        <span class="hour">01</span>
+                        <span class="min">11</span>
+                        <span class="sec">00</span>
+                    </div>
+                    <span>后结束抢购</span>
+                </div>
+            </div>
+            <div class="slunbobox">
+                <div class="lbulbox">
+                    <div>
+                        <ul data-left="1">
+
+                        </ul>
+                    </div>
+                    <div class="scontr_left" data-cont="-1"><span></span></div>
+                    <div class="scontr_right" data-cont="1"><span></span></div>
+                </div>
+                <div class="slbrbox">
+                    <div class="mszc mylunbo" data-mytarget="mszclist" data-actclass="mszclistact">
+                        <a class="mylunbo_item" href="https://miaosha.jd.com/pinpailist.html" data-active="true" data-actindex="0">
+                            <img src="//img11.360buyimg.com/mobilecms/s180x225_jfs/t10477/173/991424844/101945/3445cc53/59db4915N0bd0fbe2.jpg" alt="">
+                        </a>
+                        <a class="mylunbo_item" href="https://miaosha.jd.com/brandlist.html" data-actindex="1">
+                            <img src="//img11.360buyimg.com/mobilecms/s180x225_jfs/t9880/185/1077793777/36402/40703f44/59dc7533Ne884aa6a.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="mszclist" id="mszclist" data-list="true">
+                        <i class='listitem' data-actindex="0"></i>
+                        <i class='listitem' data-actindex="1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 好货 专辑 排行榜 -->
+    <div class="fbtinner" id="fbt">
+        <div class="mycontainer">
+            <div class="findgood">
+                <div class="fbttit">
+                    <i class="zjcssarr"></i>
+                    <i class="zjcss"></i>
+                    <h3>发现好货</h3>
+                    <a href="//fxhh.jd.com/index.html">
+                        发现品质生活
+                        <i class="gologo"></i>
+                    </a>
+                </div>
+                <div class="fbtbox">
+                    <div class="ulbox">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sup">
+                <div class="fbttit">
+                    <i class="zjcssarr"></i>
+                    <i class="zjcss"></i>
+                    <h3>会买专辑</h3>
+                    <a href="//ypzj.jd.com/">
+                        甄选优质好物
+                        <i class="gologo"></i>
+                    </a>
+                </div>
+                <div class="fbtbox">
+                    <div class="subbox mylunbo">
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="top_rank">
+                <div class="fbttit">
+                    <i class="zjcssarr"></i>
+                    <i class="zjcss"></i>
+                    <h3>排行榜</h3>
+                    <a href="//top.jd.com/">
+                        专属你的购物指南
+                        <i class="gologo"></i>
+                    </a>
+                </div>
+                <div class="fbtbox">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 领券中心 mime -->
+    <div class="lmime">
+        <div class="mycontainer">
+            <div class="cupon">
+                <div class="fbttit">
+                    <i class="zjcssarr"></i>
+                    <i class="zjcss"></i>
+                    <h3>领券中心</h3>
+                    <a href="//a.jd.com/">
+                        前往领券中心
+                        <i class="gologo"></i>
+                    </a>
+                </div>
+                <div class="box_hd">
+                    <ul>
+                       
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mime">
+                <div class="fbttit">
+                    <i class="zjcssarr"></i>
+                    <i class="zjcss"></i>
+                    <h3>觅me</h3>
+                    <a href="//jdiscover.jd.com">
+                        探索生活
+                        <i class="gologo"></i>
+                    </a>
+                </div>
+                <div class="box_hd">
+                    <div class="mimebox mylunbo">
+                        <div class="fengex"></div>
+                        <div class="mylubcontrbox">
+                            <div class="mlbctr "></div>
+                            <div class="mlbctr"></div>
+                            <div class="mlbctr"></div>
+                            <div class="mlbctr"></div>
+                            <div class="mlbctr"></div>
+                        </div>
+                        <div class="mylbctr_left"><i></i></div>
+                        <div class="mylbctr_right"><i></i></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 图片分隔 -->
+    <div class="need_ani">
+        <div class="mycontainer">
+            <ul>
+                <li>
+                    <a href="//fila.jd.com/">
+                        <img src="//m.360buyimg.com/babel/jfs/t9418/341/2368601051/16535/29191155/59cc937bNfddf3a82.jpg!q90" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm4m21giwBcczudhNTn3nH7y7zzgsKNmfex8oDNESbMSli2OfjaF6zL44DFcvVwGxLfwifHaAjxirqnwYxt/eVNs4fLWlvRBkxoM4QrINBB7LdPAaEyBkf1VGLUKoy/qqOjiaUxF4gV+tYntLn3RUSsIPg/5lcwJ9ODRALR4zzW6KndBYMCVFxlbZRUKij7Z92358nvVR6ukal9j8UOUAB7XX2eOVm6BWJgL+STwEf7TGxhRUJO1SzbN9ghEGFXB7f90eAcCcxt4/aYpXclWi6Ay4kZYtET9oANOMTk0wDstKw==&cv=2.0&url=//sale.jd.com/act/iklG3xhS1LRcQqNJ.html">
+                        <img src="//img1.360buyimg.com/da/jfs/t8656/263/2278306240/23361/d48c3ba5/59c9c4f9Nb5048e42.jpg!q90" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm4FCJYr7V4rE/4ew/BwRj+mRwnK//BCppyX+78QU4kDbHxSI7j4rWmhgThtyJFoRWxHWmoByPeXmwN+vPPmAue8voHHlU5rMnLEPNn9WazGg7gqJiUuflEk/SWjnRVNsksk/lcArurZXFyhIRu1InhhDkaHO1xKZOV8WTwVGCUbgj4kC+/RyANkBnJ631HMsrLgxdqd/En+ZMPaGZlESp+yAlw+XmZvbUN3vMISXwIa2tr0MfOI2DaXXObykNE28u6RSqxta3jKo2EEgYPtbnoK&cv=2.0&url=//channel.jd.com/fashion.html">
+                        <img src="//img12.360buyimg.com/da/jfs/t3811/149/2171111328/19804/547b2ca4/58522b00Nccd2abd1.jpg!q90" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 享品质 -->
+    <div class="xpz" id="xpz">
+        <div class="mycontainer">
+            <div class="xpztit">
+                <h3>享品质</h3>
+            </div>
+            <div class="xpzbox">
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 图片分隔 -->
+    <div class="need_ani">
+        <div class="mycontainer">
+            <ul>
+                <li>
+                    <a href="//sale.jd.com/act/IijS2N1vLHhrfdE.html">
+                        <img src="//m.360buyimg.com/babel/jfs/t10690/272/395446917/12624/d9699e18/59ce104bNaecb6ee9.jpg!q90" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm5lzodlqFGHd+TnXwfTOBSCChfnW8j8EE3SF4L/wE1AYmfzPHEQz25/ff+AgArORQJHWmoByPeXmwN+vPPmAue8A2ot6lZ8Rpyz81cLf2f5T22BZCaZynfc7uRSdm/gSsoYBUGURAHbwzvOanvXW9g+8/6WKnA+SZ3AxEIWIpogIrhmxh2Y3AU9XUrVnJY0DRaaNlYR6q849hP06bIVvMArWuiHSVI0yCkZsMFLMiuRUlwZIgJhNQ2QfP+SgF74yPEWrrA9GwAn8POZ+atr1AgC&cv=2.0&url=//o.jd.com/market/index.action">
+                        <img src="//img11.360buyimg.com/da/jfs/t3193/79/4664302563/10176/c05d5b4d/58522beaNf38b62d6.jpg!q90" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm4MumNHjO/MTIQgLZmVMvjIlABcj2yooUr8DZ0LzQ02xF4y2V/d3xJdz0hgaMCfkxVHWmoByPeXmwN+vPPmAue88vbCjJwzgisfHGxcwS/sj8m0ek0HvRIKdODT8QfNjA0ub6xEjHTT/8Y3IFykEqHuQod+KYxCPcjDhX1RouGJvWWX8sgBMRRsCf+zfYrDghP7Yf0/1mWhQd/EwOPW33yN6Y76pEUjnWhXnKNVdZJvVXCZyfP4uMqYgQ3v+5kk/jcO2L9Q0Zc72tSD7laS1JfwqCGCSkwWB0UZE/clm1+XfA==&cv=2.0&url=//sale.jd.com/act/jPbZs6QhNV.html">
+                        <img src="//img20.360buyimg.com/da/jfs/t3061/203/4725524983/21798/ec887099/5852299fN1840f35a.jpg!q90" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 爱生活 -->
+    <div class="aish">
+        <div class="xpztit">
+            <h3>爱生活</h3>
+        </div>
+        <div class="mycontainer ashbox" id="aishenghuo">
+            
+        </div>
+        <!-- 家电馆搞机派  -->
+        <div class="mycontainer ashbox" id="jiadianguan">
+
+        </div>
+        <!-- 电脑数码 -->
+        <div class="mycontainer ashbox tto" id="diannao">
+            
+        </div>
+        <!-- 玩3C -->
+        <div class="mycontainer ashbox" id="wan3c">
+        </div>
+    </div>
+    <!-- 图片分隔 -->
+    <div class="need_ani">
+        <div class="mycontainer">
+            <ul>
+                <li>
+                    <a href="//sale.jd.com/act/b62KnoDhLVdR8tj0.html">
+                            <img src="//m.360buyimg.com/babel/jfs/t9145/147/1914197692/25697/c2b27dc/59cc4abaN9efee123.jpg!q90" alt="">
+                        </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm7x5zhOqojZW1LAsHEw8suepGmP2bhN2Pyr10i9KqlamZiEjxyJoKkTQL1U9UKb/19HWmoByPeXmwN+vPPmAue8voHHlU5rMnLEPNn9WazGg7gqJiUuflEk/SWjnRVNsksk/lcArurZXFyhIRu1InhhDkaHO1xKZOV8WTwVGCUbgj4kC+/RyANkBnJ631HMsrLgxdqd/En+ZMPaGZlESp+yAlw+XmZvbUN3vMISXwIa2tr0MfOI2DaXXObykNE28u6RSqxta3jKo2EEgYPtbnoK&cv=2.0&url=//channel.jd.com/fashion.html">
+                            <img src="//img13.360buyimg.com/da/jfs/t3907/210/534434515/20553/eb8aefe8/58523baaNe06b870c.jpg!q90" alt="">
+                        </a>
+                </li>
+                <li>
+                    <a href="//c-nfa.jd.com/adclick?keyStr=6PQwtwh0f06syGHwQVvROzh5ulIgMw7+jmnFGWIVTm6UcOZ3eEKec30a0l9Ws21I2D2Dpi+bPjrpOPbQktO7I49bJ/HB4GBYWL8TMxbTaJpHWmoByPeXmwN+vPPmAue88vbCjJwzgisfHGxcwS/sj8nyzFThslR7W4TQOJ8FKhqe8pxgtuVgd+oUN2HcwJ72BvY0tDzeYVvO6GD7pv64H8vAa6QAm01CnX10pC6qyde7NopedPC3du7DL5C86LCm7rgAJfsDkN3cr39q/mKyOw8DnD4R7zcofvTr4ytU1fEqjV5eNKY+ZtEexFIgZ9O50KLb4qjigzwt6HHBU+SMjg==&cv=2.0&url=//sale.jd.com/act/BvZwPWeJG40.html">
+                            <img src="//img30.360buyimg.com/da/jfs/t3259/20/4649243576/20126/acbc97bb/5852294fN3307fd24.jpg!q90" alt="">
+                        </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="aish">
+        <!-- 爱吃 -->
+        <div class="mycontainer ashbox" id="aichi">
+        </div>
+
+        <!-- 爱宝宝 -->
+        <div class="mycontainer ashbox" id="aibaobao">
+        </div>
+        <!-- 爱阅读 -->
+        <div class="mycontainer ashbox" id="aiyuedu">
+        </div>
+        <!-- 爱游戏 -->
+        <div class="mycontainer ashbox" id="aiyouxi">
+        </div>
+        <!-- 生活旅行 -->
+        <div class="mycontainer ashbox" id="aijiankang">
+        </div>
+    </div>
+<!-- 还没逛够 -->
+    <div class="hmgg" id="hmgg">
+        <div class="mycontainer">
+            <div class="xpztit">
+                <h3>还没逛够</h3>
+            </div>
+            <div class="hmggbox">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- 多快好省 -->
+        <div class="dkhs">
+            <div class="mycontainer">
+                <div class="dkhs_item">
+                    <div class="dkhcont">
+                        <i class="dklogo"></i> 品类齐全，轻松购物
+                    </div>
+                </div>
+                <div class="dkhs_item">
+                    <div class="dkhcont">
+                        <i class="dklogo"></i> 多仓直发，极速配送
+                    </div>
+                </div>
+                <div class="dkhs_item">
+                    <div class="dkhcont">
+                        <i class="dklogo"></i> 正品行货，精致服务
+                    </div>
+                </div>
+                <div class="dkhs_item">
+                    <div class="dkhcont">
+                        <i class="dklogo"></i> 天天低价，畅选无忧
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="severs">
+            <div class="mycontainer">
+                <ul class="severul">
+                    <li>
+                        <p>售后服务</p>
+                        <p><a href="#">dsafsdaf</a></p>
+                        <p><a href="#">dsafsdaf</a></p>
+                        <p><a href="#">dsafsdaf</a></p>
+                        <p><a href="#">dsafsdaf</a></p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="hentlan">
+
+        </div>
+        <div class="xinxi">
+
+        </div>
+        <div class="dblogo">
+            <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026"></a>
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&ct=df&pa=294005"></a>
+            <a href="http://www.bj.cyberpolice.cn/index.do"></a>
+            <a href="https://search.szfw.org/cert/l/CX20120111001803001836"></a>
+            <a href="http://www.12377.cn"></a>
+            <a href="http://www.12377.cn/node_548446.htm"></a>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/countdown.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+
+    <script src="./js/mylunbo.js"></script>
+    <script src="./js/shouyeinit.js"></script>
+    <script src="./js/轮播索引.js"></script>
+</body>
+
+</html>

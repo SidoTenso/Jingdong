@@ -1,0 +1,557 @@
+{
+    "index": "10",
+    "ldetail": [
+        {
+            "detail_tit": {
+                "href": "//list.jd.com/list.html?cat=12218,12221",
+                "text": "新鲜水果"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13554",
+                    "text": "苹果"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13563",
+                    "text": "香蕉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13565",
+                    "text": "梨"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13555",
+                    "text": "橙子"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13556",
+                    "text": "奇异果/猕猴桃"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13560",
+                    "text": "火龙果"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13571&ev=1107_71181&trans=1&JL=3_%E5%88%86%E7%B1%BB_%E6%A6%B4%E8%8E%B2#J_crumbsBar",
+                    "text": "榴莲"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13558",
+                    "text": "芒果"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13571&ev=1107%5F86597&sort=sort_rank_asc&trans=1&JL=3_%E5%88%86%E7%B1%BB_%E7%99%BE%E9%A6%99%E6%9E%9C#J_crumbsBar",
+                    "text": "百香果"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12221,13571&ev=1107%5F71177&sort=sort%5Frank%5Fasc&trans=1&JL=3_%E5%88%86%E7%B1%BB_%E7%9F%B3%E6%A6%B4#J_crumbsBar",
+                    "text": "石榴"
+                },
+                {
+                    "href": "//list.jd.com/list.html?tid=1001176",
+                    "text": "国产水果"
+                },
+                {
+                    "href": "//list.jd.com/list.html?tid=1001346",
+                    "text": "进口水果"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//fresh.jd.com/",
+                "text": "蔬菜蛋品"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13586,12250",
+                    "text": "蛋品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13573",
+                    "text": "叶菜类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13575",
+                    "text": "根茎类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13577",
+                    "text": "葱姜蒜椒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13576",
+                    "text": "鲜菌菇"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13574",
+                    "text": "茄果瓜类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13578",
+                    "text": "半加工蔬菜"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=13219",
+                    "text": "半加工豆制品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13574&ev=118314_654349&go=0&JL=3_%E5%88%86%E7%B1%BB_%E7%8E%89%E7%B1%B3#J_crumbsBar",
+                    "text": "玉米"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13575&ev=1107_85672&trans=1&JL=3_%E5%88%86%E7%B1%BB_%E5%B1%B1%E8%8D%AF#J_crumbsBar",
+                    "text": "山药"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13553,13575&ev=1107_94384&sort=sort_rank_asc&trans=1&JL=2_1_0#J_crumbsBar",
+                    "text": "地瓜/红薯"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//fresh.jd.com/",
+                "text": "精选肉类"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13581,12247",
+                    "text": "猪肉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13581,13582",
+                    "text": "牛肉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13581,13583",
+                    "text": "羊肉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13586,13587",
+                    "text": "鸡肉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13586,13588",
+                    "text": "鸭肉"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=13274",
+                    "text": "冷鲜肉"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=13217",
+                    "text": "特色肉类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13581,13585",
+                    "text": "内脏类"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=13220",
+                    "text": "冷藏熟食"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=22192",
+                    "text": "牛排"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13581,13582&ev=118221_653903&go=0&JL=2_1_0",
+                    "text": "牛腩"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13586,13587&ev=1107%5F82919&sort=sort_rank_asc&trans=1&JL=3_%E5%88%86%E7%B1%BB_%E9%B8%A1%E7%BF%85#J_crumbsBar",
+                    "text": "鸡翅"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//list.jd.com/list.html?cat=12218,12222",
+                "text": "海鲜水产"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12241",
+                    "text": "鱼类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12242",
+                    "text": "虾类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12243",
+                    "text": "蟹类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12244",
+                    "text": "贝类"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12240",
+                    "text": "海参"
+                },
+                {
+                    "href": "//list.jd.com/list.html?tid=1001660",
+                    "text": "活鲜"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,13579",
+                    "text": "特色水产"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12245",
+                    "text": "海产干货"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12241&ev=118298_654244&go=0&JL=3_%E5%88%86%E7%B1%BB_%E4%B8%89%E6%96%87%E9%B1%BC",
+                    "text": "三文鱼"
+                },
+                {
+                    "href": "//list.jd.com/list.html?tid=1001800",
+                    "text": "小龙虾"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,12243&ev=1107%5F71143&sort=sort_rank_asc&trans=1&JL=2_1_0#J_crumbsBar",
+                    "text": "大闸蟹"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,12222,13580",
+                    "text": "海产礼盒"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//fresh.jd.com",
+                "text": "冷饮冻食"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13592",
+                    "text": "水饺/馄饨"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13593",
+                    "text": "汤圆/元宵"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13594",
+                    "text": "面点/面食"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13597",
+                    "text": "奶酪/黄油"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13596",
+                    "text": "速冻半成品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13591,13595",
+                    "text": "火锅丸串"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13598,13603",
+                    "text": "冰淇淋"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12218,13598,13601",
+                    "text": "冷藏果蔬汁"
+                },
+                {
+                    "href": "//list.jd.com/list.html?tid=1001343",
+                    "text": "低温乳品"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//jiu.jd.com/",
+                "text": "中外名酒"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,9435",
+                    "text": "白酒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,9438",
+                    "text": "葡萄酒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,9437",
+                    "text": "洋酒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,9439",
+                    "text": "啤酒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,9436",
+                    "text": "黄酒/养生酒"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=12259,12260,12261",
+                    "text": "收藏酒/陈年老酒"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//channel.jd.com/1320-5019.html",
+                "text": "进口食品"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,12215",
+                    "text": "牛奶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,5020",
+                    "text": "饼干蛋糕"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,5021",
+                    "text": "糖/巧克力"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,5022",
+                    "text": "零食"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,15051",
+                    "text": "水"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,15052",
+                    "text": "饮料"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,15053",
+                    "text": "咖啡粉"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,5023",
+                    "text": "冲调品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,15054",
+                    "text": "油"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,15055",
+                    "text": "方便食品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,5019,5024",
+                    "text": "米面调味"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//channel.jd.com/1320-1583.html",
+                "text": "休闲食品"
+            },
+            "detail_arr": [
+                {
+                    "href": "//coll.jd.com/list.html?sub=16366",
+                    "text": "营养零食"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1590",
+                    "text": "休闲零食"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1591",
+                    "text": "坚果炒货"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1592",
+                    "text": "肉干肉脯"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,13757",
+                    "text": "熟食腊味"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1593",
+                    "text": "蜜饯果干"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1594",
+                    "text": "糖果/巧克力"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1583,1595",
+                    "text": "饼干蛋糕"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//china.jd.com",
+                "text": "地方特产"
+            },
+            "detail_arr": [
+                {
+                    "href": "//coll.jd.com/list.html?sub=21243",
+                    "text": "华北"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21318",
+                    "text": "华东"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21319",
+                    "text": "华南"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21317",
+                    "text": "华中"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21242",
+                    "text": "东北"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21313",
+                    "text": "西北"
+                },
+                {
+                    "href": "//coll.jd.com/list.html?sub=21314",
+                    "text": "西南"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//channel.jd.com/1320-12202.html",
+                "text": "茗茶"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12203",
+                    "text": "铁观音"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12204",
+                    "text": "普洱"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12205",
+                    "text": "龙井"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12206",
+                    "text": "绿茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12207",
+                    "text": "红茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12208",
+                    "text": "乌龙茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12209",
+                    "text": "花草茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12210",
+                    "text": "花果茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12212",
+                    "text": "黑茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12213",
+                    "text": "白茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12211",
+                    "text": "养生茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,12202,12214",
+                    "text": "其他茶"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//channel.jd.com/1320-1585.html",
+                "text": "饮料冲调"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,1602",
+                    "text": "饮料"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,9434",
+                    "text": "牛奶酸奶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,10975",
+                    "text": "饮用水"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,3986",
+                    "text": "咖啡/奶茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,12200",
+                    "text": "蜂蜜/柚子茶"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,1601",
+                    "text": "冲饮谷物"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1585,12201",
+                    "text": "成人奶粉"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//channel.jd.com/1320-1584.html",
+                "text": "粮油调味"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?tid=1001743",
+                    "text": "米面杂粮"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,2676",
+                    "text": "食用油"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,2677",
+                    "text": "调味品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,2678",
+                    "text": "南北干货"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,2679",
+                    "text": "方便食品"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,13760",
+                    "text": "烘焙原料"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=1320,1584,2680",
+                    "text": "有机食品"
+                }
+            ]
+        }
+    ]
+}

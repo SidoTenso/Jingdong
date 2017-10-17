@@ -1,0 +1,68 @@
+[
+    {
+        "title": "客户",
+        "data": [
+            {
+                "href": "//help.jd.com/index.html",
+                "text": "帮助中心"
+            },
+            {
+                "href": "//myjd.jd.com/afs/indexNew.action?entry=2",
+                "text": "售后服务"
+            },
+            {
+                "href": "//chat.jd.com/jdchat/custom.action ",
+                "text": "在线客服"
+            },
+            {
+                "href": "//myjd-crm.jd.com/opinion/orderList.action",
+                "text": "意见建议"
+            },
+            {
+                "href": "//myjd-crm.jd.com/appoint/telebooking.action",
+                "text": "电话客服"
+            },
+            {
+                "href": "//www.jd.com/contact/service.html",
+                "text": "客服邮箱"
+            },
+            {
+                "href": "https://jrhelp.jd.com/",
+                "text": "金融咨询"
+            },
+            {
+                "href": "//chat.jd.com/jd/chat?entry=jd_web_joybuy",
+                "text": "售全球客服"
+            }
+        ]
+    },
+    {
+        "title": "商户",
+        "data": [
+            {
+                "href": "//vc.jd.com/cooperation.html ",
+                "text": "合作招商"
+            },
+            {
+                "href": "//xue.jd.com/",
+                "text": "学习中心"
+            },
+            {
+                "href": "//shop.jd.com/",
+                "text": "商家后台"
+            },
+            {
+                "href": "//jm.jd.com/index/index.html",
+                "text": "京麦工作台"
+            },
+            {
+                "href": "//helpcenter.jd.com/venderportal/index.html",
+                "text": "商家帮助"
+            },
+            {
+                "href": "//rule.jd.com/rule/index.action",
+                "text": "规则平台"
+            }
+        ]
+    }
+]

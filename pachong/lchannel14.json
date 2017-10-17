@@ -1,0 +1,312 @@
+{
+    "index": "14",
+    "ldetail": [
+        {
+            "detail_tit": {
+                "href": "//jipiao.jd.com",
+                "text": "交通出行"
+            },
+            "detail_arr": [
+                {
+                    "href": "//jipiao.jd.com",
+                    "text": "国内机票"
+                },
+                {
+                    "href": "//ijipiao.jd.com",
+                    "text": "国际机票"
+                },
+                {
+                    "href": "//train.jd.com",
+                    "text": "火车票"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,4939,13234",
+                    "text": "机场服务"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,4939,12290",
+                    "text": "机票套餐"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//hotel.jd.com",
+                "text": "酒店预订"
+            },
+            "detail_arr": [
+                {
+                    "href": "//hotel.jd.com",
+                    "text": "国内酒店"
+                },
+                {
+                    "href": "//ihotel.jd.com",
+                    "text": "国际酒店"
+                },
+                {
+                    "href": "//sale.jd.com/act/pVJfE6CkZxI52L.html",
+                    "text": "超值精选酒店"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//trip.jd.com",
+                "text": "旅游度假"
+            },
+            "detail_arr": [
+                {
+                    "href": "http://dujia.jd.com/search_complex/whole-all-0-%E4%B8%89%E4%BA%9A",
+                    "text": "国内旅游"
+                },
+                {
+                    "href": "http://dujia.jd.com/search_complex/whole-all-0-%E6%B3%B0%E5%9B%BD",
+                    "text": "出境旅游"
+                },
+                {
+                    "href": "//visa.jd.com/",
+                    "text": "全球签证"
+                },
+                {
+                    "href": "//menpiao.jd.com/",
+                    "text": "景点门票"
+                },
+                {
+                    "href": "//youlun.jd.com/",
+                    "text": "邮轮"
+                },
+                {
+                    "href": "//bao.jd.com/goods/2000",
+                    "text": "旅行保险"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//ct.jd.com",
+                "text": "商旅服务"
+            },
+            "detail_arr": [
+                {
+                    "href": "//ct.jd.com",
+                    "text": "企业差旅"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12420,13755",
+                    "text": "团队建设"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12420,12422",
+                    "text": "奖励旅游"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12420,12423",
+                    "text": "会议周边"
+                },
+                {
+                    "href": "//mice.jd.com/",
+                    "text": "会议展览"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//piao.jd.com",
+                "text": "演出票务"
+            },
+            "detail_arr": [
+                {
+                    "href": "//movie.jd.com",
+                    "text": "电影选座"
+                },
+                {
+                    "href": "//piao.jd.com/yanchanghui",
+                    "text": "演唱会"
+                },
+                {
+                    "href": "//piao.jd.com/yinyuehui",
+                    "text": "音乐会"
+                },
+                {
+                    "href": "//piao.jd.com/huajugeju",
+                    "text": "话剧歌剧"
+                },
+                {
+                    "href": "//piao.jd.com/tiyusaishi",
+                    "text": "体育赛事"
+                },
+                {
+                    "href": "//piao.jd.com/wudaobalei",
+                    "text": "舞蹈芭蕾"
+                },
+                {
+                    "href": "//piao.jd.com/xiquzongyi",
+                    "text": "戏曲综艺"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//chongzhi.jd.com/index.action?bussType=3",
+                "text": "生活缴费"
+            },
+            "detail_arr": [
+                {
+                    "href": "//chongzhi.jd.com/index.action?bussType=3",
+                    "text": "水费"
+                },
+                {
+                    "href": "//chongzhi.jd.com/index.action?bussType=3",
+                    "text": "电费"
+                },
+                {
+                    "href": "//chongzhi.jd.com/index.action?bussType=3",
+                    "text": "煤气费"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//ish.jd.com",
+                "text": "生活服务"
+            },
+            "detail_arr": [
+                {
+                    "href": "//life.jd.com/take/initTakeAway.do",
+                    "text": "外卖订座"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,11760,12374",
+                    "text": "家政保洁"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,11760,14408",
+                    "text": "摄影写真"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,11760,12373",
+                    "text": "休闲娱乐"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,11760,12372",
+                    "text": "丽人/养生"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//eduonline.jd.com/",
+                "text": "教育培训"
+            },
+            "detail_arr": [
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,12317",
+                    "text": "早教幼教"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,13111",
+                    "text": "中小学教育"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,12319",
+                    "text": "语言培训"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,13112",
+                    "text": "学历教育"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,13109",
+                    "text": "职业技能"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,13110",
+                    "text": "兴趣爱好"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//caipiao.jd.com",
+                "text": "彩票"
+            },
+            "detail_arr": [
+                {
+                    "href": "//sale.jd.com/act/wzf51k8RX4reCD.html",
+                    "text": "购彩中心"
+                },
+                {
+                    "href": "//caipiao.jd.com/notice/notice_list.html",
+                    "text": "开奖结果"
+                },
+                {
+                    "href": "//caipiao.jd.com",
+                    "text": "数据图表"
+                },
+                {
+                    "href": "//caipiao.jd.com",
+                    "text": "彩民服务"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "href": "//game.jd.com",
+                "text": "游戏"
+            },
+            "detail_arr": [
+                {
+                    "href": "//card.jd.com/?type=qq",
+                    "text": "QQ充值"
+                },
+                {
+                    "href": "//card.jd.com/",
+                    "text": "游戏点卡"
+                },
+                {
+                    "href": "//wan.jd.com",
+                    "text": "网页游戏"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,9394,9392",
+                    "text": "游戏周边"
+                },
+                {
+                    "href": "//card.jd.com/?type=shouyou",
+                    "text": "手机游戏"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,9394,9393",
+                    "text": "单机游戏"
+                }
+            ]
+        },
+        {
+            "detail_tit": {
+                "text": "海外生活"
+            },
+            "detail_arr": [
+                {
+                    "href": "//liuxue.jd.com",
+                    "text": "留学"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=13678,13684,13688",
+                    "text": "留学后服务"
+                },
+                {
+                    "href": "//sale.jd.com/act/es4Yyv60fxX5G.html",
+                    "text": "游学"
+                },
+                {
+                    "href": "//list.jd.com/list.html?cat=4938,12316,12319",
+                    "text": "外语培训"
+                },
+                {
+                    "href": "//fangchan.jd.com/",
+                    "text": "海外房产"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+header{
+    height: 110px;
+    width: 100%;
+    background: url('../img/register/headbg.jpg') repeat-x left bottom;
+}
+.header{
+    width: 1210px;
+    height: 90px;
+    margin: 0 auto;
+}
+.header .logo{
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-top: 35px;
+    background-image: url('../img/register/icon.png');
+    /* background-position:  */
+}
+.header .logotitle{
+    float: left;
+    width: 120px;
+    height: 34px;
+    padding-left: 15px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333;
+    margin-top: 45px; 
+}
+.header .login{
+    float: right;
+    margin-top: 60px;
+}
+.header .login span:nth-child(1){
+    color: #9f9f9f
+}
+.header .login a{
+    color: black;
+    text-decoration: none;
+}
+.header .login a:hover{
+    text-decoration: underline;
+}
+
+
+/* 内容 */
+
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+.container .content{
+    width: 850px;
+    margin:  50px auto 100px;
+}
+
+    /* 表单 */
+    .container .content::after{
+        display: block;
+        content: ' ';
+        clear: both;
+        height: 0;
+    }
+    .reg-form{
+        float: left;
+    }
+    .form-item{
+        position: relative;
+        width: 400px;
+        height: 50px;
+        border: 1px  solid #dfdfdf;
+    }
+    .form-item label{
+        float: left;
+        width: 75px;
+        height: 50px;
+        padding-left: 25px;
+        padding-right: 20px;
+        color: #444;
+        font-size: 14px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        text-align-last: justify;
+        /* -webkit-text-justify: center; */
+        /* text-justify: inter-ideograph; */
+    }
+    /* .form-item label:after{
+        display:inline-block;
+        content:'';
+        overflow:hidden;
+        width:100%;
+        height:0;
+    } */
+    .form-item input{
+        margin-left: 25px;
+        margin-top: 18px;
+        border: none;
+        outline: none;
+    }
+    .form-tip{
+        width: 400px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 20px;
+    }
+    .form-item i{
+        position: absolute;
+        right: 5px;
+        top:calc(50% - 8px);
+        width: 16px;
+        height: 16px;
+    }
+    .form-tip span{
+        display: none;
+        color: #999;
+        font-size: 12px;
+    }
+    .error{
+        color: red;
+        font-size: 12px;
+    }
+    .gth,.warn,.success{
+        display: none;
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+        margin-right: 3px;
+        background-image: url('../img/register/icon.png');
+        background-position: 0px 70px;
+    }
+    .success{
+        /* display:inline-block; */
+        background-position: 0 53px;
+    }
+    .warn{
+        background-position: -17px 70px;
+    }
+    .phone-wrap{
+        position: relative;
+    }
+    .phone{
+        position: relative;
+        border-right: 1px solid #dfdfdf;
+    }
+    .phone a{
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        right: 8px;
+        top: calc(50% - 8px);
+        border-bottom: 1px solid #9f9f9f;
+        border-right: 1px solid #9f9f9f;
+        transform: rotate(45deg)
+    }
+
+    .email{
+        position: absolute;
+        /* height: 20px; */
+        font-size: 12px;
+        right: 0;
+        bottom: 6px;
+    }
+    .authCode,.getPhoneCode{
+        position: absolute;
+        width: 110px;
+        height: 46px;
+        top: 2px;
+        right: 3px;
+    }
+    .getPhoneCode{
+        border: none;
+        cursor: pointer;
+    }
+    .register{
+        width: 100%;
+        height: 54px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        background-color: red;
+        cursor: pointer;
+    }
+    /* 企业注册 */
+    .reg-other{
+        float: left;
+        width: 230px;
+        height: 550px;
+        margin-left: 100px;
+        padding-left: 115px;
+        border-left: 1px solid #dfdfdf;
+    }
+    .company-reg{
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .company-reg a,.inter-cust a{
+        display: block;
+        color: #666;
+        text-decoration: none;
+    }
+    .company-reg a:hover,.inter-cust a:hover{
+        color: black;
+    }
+    .company-logo,.inter-logo{
+        float: left;
+        height: 30px;
+        width: 30px;
+        margin-left: 5px;
+        margin-right: 10px;
+        background-image: url('../img/register/icon.png');
+        background-position:  0px -49px;
+    }
+    .inter-cust{
+        width: 100%;
+        height: 50px;
+        margin-top: 25px;
+    }
+    .inter-logo{
+        background-position: -49px -50px;
+    }
+
+    .feedback{
+        position: fixed;
+        right: 0;
+        top: calc((100% - 135px) / 2);
+        width: 33px;
+        height: 135px;
+        background-image: url('../img/register/icon.png');
+        background-position: 33px 0;
+    }
+    .feedback:hover{
+        background-position: 66px 0;
+    }
+
+
+/* 底部 */
+footer{
+    width: 1210px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+
+}
+.footer{
+    width: 850px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.list>*{
+    margin:  0 5px;
+}
+.footer a{
+    color: #999;
+    text-decoration: none;
+}
+

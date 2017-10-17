@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="#" class="jdlogo"></a>
+            <div class="loginlogo"></div>
+            <a href="#" class="feedback">
+                <i class="fblogo"></i>
+                <span>登录页面，调查问卷</span>
+            </a>
+        </div>
+        <div class="warnning">
+            <div>
+                <i class="icon-tip"></i>
+                <p>
+                    依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<a href="#">《京东隐私政策》</a>已上线，将更有利于保护您的个人隐私。
+                </p>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="login-form">
+                <div class="login-head">
+                    <div class="floatl">
+                        <h3>扫码登录</h3>
+                    </div>
+                    <div class="floatl">
+                        <h3 class="active">账户登录</h3>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="logincontent">
+                    <form action="/login" method="post">
+                        <div class="form-item">
+                            <label for="username" class="username"></label>
+                            <input type="text" name="username" id="username" placeholder="邮箱/用户名/已验证手机" required>
+                            <a href="javascript:;" class="delete"></a>
+                        </div>
+                        <div class="form-item">
+                            <label for="psw" class="psw"></label>
+                            <input type="password" name="psw" id="psw" placeholder="密码" required>
+                            <a href="javascript:;" class="delete"></a>
+                        </div>
+                        <div class="form-item foget">
+                            <a href="#">忘记密码</a>
+                        </div>
+                        <button type="submit" class="login">
+                                登 录
+                        </button>
+                    </form>
+                </div>
+                <div class="loginfoot">
+                    <div class="list">
+                        <div class="qq">
+                            <i></i>
+                            <span>QQ</span>
+                        </div>
+                        <div class="wx">
+                            <i></i>
+                            <span>微信</span>
+                        </div>
+                    </div>
+                    <a href="register.html" class="regnow">
+                        <i></i>
+                        <span>立即注册</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="list">
+                <a href="#">关于我们</a>
+                <span>|</span>
+                <a href="#">联系我们</a>
+                <span>|</span>
+                <a href="#">人才招聘</a>
+                <span>|</span>
+                <a href="#">商家入驻</a>
+                <span>|</span>
+                <a href="#">广告服务</a>
+                <span>|</span>
+                <a href="#">手机京东</a>
+                <span>|</span>
+                <a href="#">友情链接</a>
+                <span>|</span>
+                <a href="#">销售联盟</a>
+                <span>|</span>
+                <a href="#">京东社区</a>
+                <span>|</span>
+                <a href="#">京东公益</a>
+                <span>|</span>
+                <a href="#">English Site</a>
+            </div>
+            <div class="info">
+                <span>Copyright©2004-2016  京东JD.com 版权所有</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script>
+        $('form').submit(function (e) {
+            e.preventDefault();
+            $.post(this.action, $(this).serialize(), function (data) {
+                console.log(data)
+                switch (data.code) {
+                    case 2:
+                        location.href = 'index.html'
+
+                        break;
+                    case 1:
+                        alert(data.msg)
+                        location.href = 'register.html'
+                        break;
+                    case 0:
+                        alert(data.msg)
+                        // location.href='register.html'
+                        break;
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

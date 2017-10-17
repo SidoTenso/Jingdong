@@ -1,0 +1,283 @@
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 顶部 */
+header{
+    width: 100%;
+    height: 120px;
+}
+.header{
+    width: 990px;
+    height: 90px;
+    margin: 0 auto;
+}
+.jdlogo{
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin-top: 25px;
+    background-image: url('../img/login/logo-201305-b.png');
+}
+.loginlogo{
+    float: left;
+    height: 40px;
+    width: 110px;
+    margin: 49px 0 0 15px;
+    background-image: url('../img/login/l-icon.png');
+}
+.feedback{
+    float: right;
+    margin-top: 49px;
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+}
+.feedback:hover{
+    color: red;
+}
+.fblogo{
+    float: left;
+    width: 18px;
+    height: 14px;
+    margin-top: 3px;
+    margin-right: 5px;
+    background-image: url('../img/login/q-icon.png')
+}
+.warnning{
+    text-align: center;
+    background-color: #fff8f0;
+    padding: 6px;
+}
+.warnning p{
+    display: inline-block;
+    color: #ffa258;
+    /* height: 19px; */
+    font-size: 12px;
+    margin: 0;
+    /* line-height: 0px; */
+}
+.warnning p a{
+    color: #666;
+    text-decoration: none;
+}
+.warnning p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.icon-tip{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 19px;
+    vertical-align: middle;
+    background-image: url('../img/login/icon-tips.png');
+}
+
+
+
+/* 内容 */
+
+.container{
+    width: 100%;
+    height: 475px;
+    margin-bottom: 25px;
+    background-color: #721bca;
+}
+.content{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url('../img/login/59cc9f08ndedffc5f.jpg');
+    background-size: 100% 100%;
+
+}
+.login-form{
+    float: right;
+    width: 350px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.login-head{
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+}
+/* .login-head::after{
+    content: ' ';
+    clear: both;
+    width: 1px;
+} */
+.login-head div{
+    box-sizing: border-box;
+    width: 50%;
+}
+.floatl{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.login-head div h3{
+    margin: 10px 0;
+    color: #666;
+    text-align: center;
+    font-weight: normal;
+}
+.login-head div h3:hover,.login-head div h3.active{
+    color: red;
+    font-weight: bold;
+}
+.login-head div:nth-child(1) h3{
+
+    border-right: 1px solid #dfdfdf;
+}
+.logincontent{
+    padding: 25px 15px;
+}
+.logincontent form{
+    /* margin: 25px 15px; */
+    width: 100%;
+    /* height: 100px; */
+}
+.form-item{
+    position: relative;
+    width: 100%;
+    height: 39px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+}
+.form-item label{
+    float: left;
+    width: 39px;
+    height: 40px;
+    border-right: 1px solid #999;
+    background-image: url('../img/login/pwd-icons-new.png');
+}
+.psw{
+    background-position: -48px 0;
+}
+
+.form-item input{
+    height: 38px;
+    margin-left: 15px;
+    padding: 0;
+    line-height: 40px;
+    border: none;
+    outline: none;
+}
+.form-item .delete{
+    display: none;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 10px;
+    top: calc(50% - 7px);
+    background-image: url('../img/login/pwd-icons-new.png');
+    background-position: -26px 31px;
+    
+}
+.form-item .delete:hover{
+    background-position: -51px 31px;
+}
+
+.form-item.foget{
+    border: none;
+}
+.form-item.foget a{
+    position: absolute;
+    top: calc(50% - 6px);
+    right: 5px;
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+}
+.form-item.foget a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.loginfoot{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.list{
+    float: left;
+}
+.list i,.regnow i{
+    float: left;
+    width: 19px;
+    height: 18px;
+    margin-right: 5px;
+    background-image: url('../img/login/qq-weixin.png');
+    
+}
+.qq {
+    padding-right: 8px;
+    border-right: 1px solid #ddd;
+}
+.wx i{
+    background-position: 19px 0;
+   
+}
+.regnow{
+    float: right;
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}   
+.regnow i{
+    background-image: url('../img/login/pwd-icons-new.png');
+    background-position: 19px -73px;
+}
+
+
+
+
+/* 底部 */
+footer{
+    width: 1210px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+
+}
+.footer{
+    width: 850px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.list>*{
+    margin:  0 5px;
+}
+.footer a{
+    color: #999;
+    text-decoration: none;
+}

@@ -1,0 +1,91 @@
+{
+    "floatLeft": [
+        {
+            "bgcolor": "rgb(102, 182, 135) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//new.jd.com/",
+            "img": "//img10.360buyimg.com/babel/s400x170_jfs/t10819/329/1385679470/19324/fb9925cd/59e03c7cN78c5d513.jpg!q90.webp",
+            "h4": "新品首发",
+            "p": "新品享免息~"
+        },
+        {
+            "bgcolor": "rgb(219, 207, 110) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//huiguang.jd.com/",
+            "img": "//img11.360buyimg.com/babel/s400x170_jfs/t10696/180/1375199932/21374/457f93e/59e01443Nd54f189c.jpg!q90.webp",
+            "h4": "会逛",
+            "p": "热潮牛仔风 跨店2件8折"
+        },
+        {
+            "bgcolor": "rgb(83, 75, 93) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//shechi.jd.com/",
+            "img": "//img12.360buyimg.com/babel/s400x170_jfs/t5914/350/542952933/43255/fd49e443/5928f908N45ec28e3.jpg!q90.webp",
+            "h4": "奢侈大牌",
+            "p": "尽享品质生活"
+        },
+        {
+            "bgcolor": "rgb(59, 131, 140) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//znsh.jd.com/",
+            "img": "//img13.360buyimg.com/babel/s400x170_jfs/t5575/287/4027177619/174421/bf5b88e1/5947381aN7dd9f758.png!q90.webp",
+            "h4": "智能生活",
+            "p": "智能潮货 嗨购不停"
+        },
+        {
+            "bgcolor": "rgb(213, 135, 23) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//chaoshi.jd.com/",
+            "img": "//img14.360buyimg.com/babel/s400x170_jfs/t6031/255/909171949/55209/f766749f/592e3193Nd62486d2.jpg!q90.webp",
+            "h4": "京东超市",
+            "p": "精选超值好货 天天特价"
+        },
+        {
+            "bgcolor": "rgb(126, 89, 68) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//sale.jd.com/act/jzOMdZgYc8sQHFv.html",
+            "img": "//img10.360buyimg.com/babel/s400x170_jfs/t8719/76/1448096678/24330/235a67ff/59b9e444N3fbecf3b.jpg!q90.webp",
+            "h4": "白条商城",
+            "p": "最高12期免息"
+        },
+        {
+            "bgcolor": "rgb(169, 57, 49) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//idesign.jd.com/",
+            "img": "//img11.360buyimg.com/babel/s400x170_jfs/t5797/82/1715912711/22172/914864e/5928fa5dN52ded415.jpg!q90.webp",
+            "h4": "设计师推荐",
+            "p": "家装节"
+        },
+        {
+            "bgcolor": "rgb(100, 38, 99) none repeat scroll 0% 0% / auto padding-box border-box",
+            "href": "//sale.jd.com/act/UiLHMz0aA3Pgn.html",
+            "img": "//img12.360buyimg.com/babel/s400x170_jfs/t6181/345/678879290/9594/797894b5/59437174N541210b1.jpg!q90.webp",
+            "h4": "全球尖货",
+            "p": "全球自营好货"
+        }
+    ],
+    "floatRight": {
+        "title": "京东直播",
+        "tithref": "//jdlive.jd.com",
+        "liList": [
+            {
+                "img": "//img10.360buyimg.com/live/s390x350_jfs/t7951/101/3886020191/239841/f90263ae/59e0940fNe09ccfed.jpg",
+                "h5": "珠润天泽珍爱一生",
+                "p": "爆款限时抢购"
+            },
+            {
+                "img": "//img11.360buyimg.com/live/s390x350_jfs/t10477/111/1402598400/137189/d558341/59e06b3bN322965f2.jpg",
+                "h5": "迪斯电动牙刷丨广博文具",
+                "p": "电动牙刷限时特价"
+            },
+            {
+                "img": "//img12.360buyimg.com/live/s390x350_jfs/t10477/290/1187291814/255509/285af6f0/59dde4b2Ndc3c34d0.jpg",
+                "h5": "深秋学会搭配冬日告别单身",
+                "p": "惊喜配饰随心搭品牌集结送好礼"
+            },
+            {
+                "img": "//img13.360buyimg.com/live/s390x350_jfs/t9571/361/1187079066/106771/29cdfb81/59ddd1baNf698052d.jpg",
+                "h5": "咚咚鸭脖丨好吃又健康的果蔬干",
+                "p": "咚咚满99减20三轮抽奖送美食"
+            },
+            {
+                "img": "//img14.360buyimg.com/live/s390x350_jfs/t9898/66/1096570197/467968/328db2e1/59dc8b14Nbd652076.jpg",
+                "h5": "探秘大师赛送费德勒签名",
+                "p": "抢费德勒签名送球星礼盒爆款"
+            }
+        ]
+    }
+}
